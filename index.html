@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <title>funtime!</title>
+  
+  <!--  Styles  -->
+  <link rel="stylesheet" href="styles/index.processed.css">
+</head>
+<body>
+  <div id="login-page-wrapper">
+    <div id="login-wrapper" class="absolute-center">
+    <label for="input-username">Username</label>
+    <input class="form-item" id="input-username" type="text" placeholder="Username">
+    <label for="input-username">Choose a weapon</label>
+    <select name="" id="weapon-select-1">
+      <option value="">Choose a weapon</option>
+      
+    </select>
+    <hr>
+    <button id="btn-submit-user" type="button">submit</button>
+    
+  </div>
+  </div>
+  
+  
+  <div id="game-wrapper">
+    <div class="image-wrapper">
+      <img id="game-image" src="http://backgroundcheckall.com/wp-content/uploads/2017/12/majestic-background.jpg" alt="">
+    </div>
+    <p id="story-line">You're on your last breath and you see a majestic unicorn frolicking. Touch the tip of the unicorns horn and you will get whatever you desire, but be warned, the unicorn is furocious! The choice is yours.</p>
+    <ol id="story-options-wrapper">
+      <li class="story-options">Touch the tip</li>
+      <li class="story-options">Turn around and go home</li>
+      <li class="story-options">Capture and sell for ressources!</li>
+    </ol>
+  </div>
+ 
+  
+  <!-- Scripts -->
+  <script src="scripts/Weapons.js"></script>
+  <script src="scripts/Player.js"></script>
+  <script src="scripts/Game.js"></script>
+  <script src="scripts/index.js"></script>
+</body>
+</html>

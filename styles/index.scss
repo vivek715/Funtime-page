@@ -1,0 +1,189 @@
+CodePen Home
+KILLER U N I C O R N
+Anthony Powell
+
+Follow
+Love
+Change View
+Sign Up
+Log In
+
+PROJECT ROOT
+
+This file is read-only.
+1
+@import './util';
+2
+​
+3
+html, body, * {
+4
+  box-sizing: border-box !important;
+5
+}
+6
+​
+7
+html,
+8
+body {
+9
+  height: 100%;
+10
+}
+11
+​
+12
+body {
+13
+  background: #f5f5f5;
+14
+}
+15
+​
+16
+.hide {
+17
+  display: none !important;
+18
+}
+19
+​
+20
+.show {
+21
+  display: block !important;
+22
+}
+23
+​
+24
+#game-wrapper {
+25
+    width: 800px;
+26
+    margin: 0 auto;
+27
+    display: none;
+28
+}
+29
+​
+30
+#game-image {
+31
+  max-width: 100%;
+32
+  max-height: 100%;
+33
+}
+34
+​
+35
+.image-wrapper {
+36
+  height: 450px;
+37
+  text-align: center;
+38
+}
+39
+​
+40
+#login-page-wrapper {
+41
+  height: 100%;
+42
+  // background-color: blue;
+43
+  width: 100%;
+44
+}
+45
+​
+46
+#login-wrapper {
+47
+  background-color: white;
+48
+  // height: 200px;
+49
+  width: 250px;
+50
+  padding: 40px 20px;
+51
+  border: solid thin grey;
+52
+  border-radius: 5px;
+53
+}
+54
+​
+55
+​
+56
+input[type=text] {
+57
+  width: 100%; 
+58
+  padding: 5px;
+59
+  margin: 0;
+60
+  height: 30px;
+61
+  border: solid thin grey;
+62
+  border-radius: 5px;
+63
+  margin-bottom: 5px;
+64
+}
+65
+​
+66
+​
+67
+button {
+68
+  width: 100%;
+69
+  height: 30px;
+70
+  border: solid thin grey;
+71
+  border-radius: 5px;
+72
+  margin-bottom: 5px;
+73
+  cursor: pointer;
+74
+}
+75
+​
+76
+select {
+77
+  width: 100%;
+78
+  padding: 0;
+79
+  margin: 0;
+80
+  height: 30px;
+81
+  border: solid thin grey;
+82
+  border-radius: 5px;
+83
+  margin-bottom: 5px;
+84
+}
+PREVIEW:
+404 - File not found
+You may need to fix some compile errors and/or resave your file to see the preview here.
+
+
+Share
+Export
+Read Only
